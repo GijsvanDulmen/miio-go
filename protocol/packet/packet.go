@@ -74,7 +74,7 @@ func (p *Packet) DataLength() int {
 
 func (p *Packet) HasZeroChecksum() bool {
 	for _, b := range p.Header.Checksum {
-		if b != 0 {
+		if b != 0 && b != 0xff {
 			return false
 		}
 	}
