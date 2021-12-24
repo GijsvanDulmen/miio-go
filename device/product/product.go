@@ -12,7 +12,7 @@ const (
 
 func GetModel(modelName string) (Product, error) {
 	switch modelName {
-	case "chuangmi.plug.m1":
+	case "chuangmi.plug.m1", "chuangmi.plug.hmi206":
 		return PowerPlug, nil
 	case "yeelink.light.color1":
 		return Yeelight, nil
