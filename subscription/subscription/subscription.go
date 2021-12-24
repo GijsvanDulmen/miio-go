@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nickw444/miio-go/subscription/common"
-	"github.com/satori/go.uuid"
+	"github.com/danilarff86/miio-go/subscription/common"
+	uuid "github.com/satori/go.uuid"
 )
 
 const (

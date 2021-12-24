@@ -1,7 +1,7 @@
 package device
 
 import (
-	"github.com/nickw444/miio-go/simulator/capability"
+	"github.com/danilarff86/miio-go/simulator/capability"
 )
 
 type SimulatedPowerPlug struct {

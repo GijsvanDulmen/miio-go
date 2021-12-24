@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/nickw444/miio-go/common"
+	"github.com/danilarff86/miio-go/common"
 )
 
 func installDiscovery(app *kingpin.Application) {

@@ -1,8 +1,8 @@
 package device
 
 import (
-	"github.com/nickw444/miio-go/capability"
-	"github.com/nickw444/miio-go/common"
+	"github.com/danilarff86/miio-go/capability"
+	"github.com/danilarff86/miio-go/common"
 )
 
 type Yeelight struct {

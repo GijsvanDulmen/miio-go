@@ -5,10 +5,10 @@ import (
 	"os"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/nickw444/miio-go"
-	"github.com/nickw444/miio-go/common"
-	"github.com/nickw444/miio-go/protocol"
-	"github.com/nickw444/miio-go/protocol/tokens"
+	"github.com/danilarff86/miio-go"
+	"github.com/danilarff86/miio-go/common"
+	"github.com/danilarff86/miio-go/protocol"
+	"github.com/danilarff86/miio-go/protocol/tokens"
 	"github.com/sirupsen/logrus"
 )
 

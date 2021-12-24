@@ -3,9 +3,9 @@ package capability
 import (
 	"testing"
 
-	"github.com/nickw444/miio-go/common"
-	transportMocks "github.com/nickw444/miio-go/protocol/transport/mocks"
-	subscriptionMocks "github.com/nickw444/miio-go/subscription/common/mocks"
+	"github.com/danilarff86/miio-go/common"
+	transportMocks "github.com/danilarff86/miio-go/protocol/transport/mocks"
+	subscriptionMocks "github.com/danilarff86/miio-go/subscription/common/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/nickw444/miio-go/capability"
-	"github.com/nickw444/miio-go/common"
-	"github.com/nickw444/miio-go/device"
+	"github.com/danilarff86/miio-go/capability"
+	"github.com/danilarff86/miio-go/common"
+	"github.com/danilarff86/miio-go/device"
 )
 
 var sharedDevice common.Device

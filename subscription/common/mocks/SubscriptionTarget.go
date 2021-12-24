@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	common "github.com/nickw444/miio-go/subscription/common"
+	common "github.com/danilarff86/miio-go/subscription/common"
 	mock "github.com/stretchr/testify/mock"
 )
 

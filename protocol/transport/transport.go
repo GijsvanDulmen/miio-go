@@ -3,7 +3,7 @@ package transport
 import (
 	"net"
 
-	"github.com/nickw444/miio-go/protocol/packet"
+	"github.com/danilarff86/miio-go/protocol/packet"
 )
 
 type Conn interface {

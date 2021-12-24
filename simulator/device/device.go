@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/nickw444/miio-go/protocol/packet"
-	"github.com/nickw444/miio-go/protocol/transport"
-	"github.com/nickw444/miio-go/simulator/capability"
+	"github.com/danilarff86/miio-go/protocol/packet"
+	"github.com/danilarff86/miio-go/protocol/transport"
+	"github.com/danilarff86/miio-go/simulator/capability"
 	"github.com/sirupsen/logrus"
 )
 

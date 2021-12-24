@@ -3,7 +3,7 @@ package device
 import (
 	"fmt"
 
-	"github.com/nickw444/miio-go/device/product"
+	"github.com/danilarff86/miio-go/device/product"
 )
 
 // Classify determines the underlying product of the device and returns an

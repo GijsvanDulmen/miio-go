@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/nickw444/miio-go/common"
-	"github.com/nickw444/miio-go/device"
-	"github.com/nickw444/miio-go/protocol/packet"
-	"github.com/nickw444/miio-go/protocol/tokens"
-	"github.com/nickw444/miio-go/protocol/transport"
-	"github.com/nickw444/miio-go/subscription"
+	"github.com/danilarff86/miio-go/common"
+	"github.com/danilarff86/miio-go/device"
+	"github.com/danilarff86/miio-go/protocol/packet"
+	"github.com/danilarff86/miio-go/protocol/tokens"
+	"github.com/danilarff86/miio-go/protocol/transport"
+	"github.com/danilarff86/miio-go/subscription"
 )
 
 type Protocol interface {

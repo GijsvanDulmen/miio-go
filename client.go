@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nickw444/miio-go/common"
-	"github.com/nickw444/miio-go/protocol"
-	"github.com/nickw444/miio-go/protocol/tokens"
-	"github.com/nickw444/miio-go/subscription"
+	"github.com/danilarff86/miio-go/common"
+	"github.com/danilarff86/miio-go/protocol"
+	"github.com/danilarff86/miio-go/protocol/tokens"
+	"github.com/danilarff86/miio-go/subscription"
 )
 
 type Client struct {

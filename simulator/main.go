@@ -6,9 +6,9 @@ import (
 	"net"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/nickw444/miio-go/protocol/packet"
-	"github.com/nickw444/miio-go/protocol/transport"
-	"github.com/nickw444/miio-go/simulator/device"
+	"github.com/danilarff86/miio-go/protocol/packet"
+	"github.com/danilarff86/miio-go/protocol/transport"
+	"github.com/danilarff86/miio-go/simulator/device"
 	"github.com/sirupsen/logrus"
 )
 
