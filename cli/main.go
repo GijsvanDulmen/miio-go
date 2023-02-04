@@ -4,11 +4,10 @@ import (
 	"net"
 	"os"
 
+	"github.com/GijsvanDulmen/miio-go"
+	"github.com/GijsvanDulmen/miio-go/protocol"
+	"github.com/GijsvanDulmen/miio-go/protocol/tokens"
 	"github.com/alecthomas/kingpin"
-	"github.com/danilarff86/miio-go"
-	"github.com/danilarff86/miio-go/common"
-	"github.com/danilarff86/miio-go/protocol"
-	"github.com/danilarff86/miio-go/protocol/tokens"
 	"github.com/sirupsen/logrus"
 )
 

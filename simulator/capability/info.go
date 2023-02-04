@@ -1,6 +1,6 @@
 package capability
 
-import "github.com/danilarff86/miio-go/common"
+import "github.com/GijsvanDulmen/miio-go/common"
 
 type Info struct {
 	Model string

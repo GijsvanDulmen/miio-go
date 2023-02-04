@@ -3,9 +3,9 @@ package capability
 import (
 	"strconv"
 
-	"github.com/danilarff86/miio-go/common"
-	"github.com/danilarff86/miio-go/protocol/transport"
-	"github.com/danilarff86/miio-go/subscription"
+	"github.com/GijsvanDulmen/miio-go/common"
+	"github.com/GijsvanDulmen/miio-go/protocol/transport"
+	"github.com/GijsvanDulmen/miio-go/subscription"
 )
 
 type Light struct {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/GijsvanDulmen/miio-go/capability"
+	"github.com/GijsvanDulmen/miio-go/common"
+	"github.com/GijsvanDulmen/miio-go/device"
 	"github.com/alecthomas/kingpin"
-	"github.com/danilarff86/miio-go/capability"
-	"github.com/danilarff86/miio-go/common"
-	"github.com/danilarff86/miio-go/device"
 )
 
 var sharedDevice common.Device

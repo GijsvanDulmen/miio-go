@@ -1,4 +1,4 @@
-module github.com/danilarff86/miio-go
+module github.com/GijsvanDulmen/miio-go
 
 go 1.12
 

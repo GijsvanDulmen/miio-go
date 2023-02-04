@@ -1,6 +1,6 @@
 package common
 
-import "github.com/danilarff86/miio-go/subscription"
+import "github.com/GijsvanDulmen/miio-go/subscription"
 
 type DeviceInfo struct {
 	FirmwareVersion string `json:"fw_ver"`

@@ -9,11 +9,11 @@ import (
 
 	"encoding/hex"
 
-	"github.com/danilarff86/miio-go/common"
-	"github.com/danilarff86/miio-go/device"
-	"github.com/danilarff86/miio-go/protocol/packet"
-	"github.com/danilarff86/miio-go/protocol/tokens"
-	"github.com/danilarff86/miio-go/protocol/transport"
+	"github.com/GijsvanDulmen/miio-go/common"
+	"github.com/GijsvanDulmen/miio-go/device"
+	"github.com/GijsvanDulmen/miio-go/protocol/packet"
+	"github.com/GijsvanDulmen/miio-go/protocol/tokens"
+	"github.com/GijsvanDulmen/miio-go/protocol/transport"
 	"github.com/sirupsen/logrus"
 )
 

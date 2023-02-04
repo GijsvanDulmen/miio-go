@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	deviceMocks "github.com/GijsvanDulmen/miio-go/device/mocks"
+	"github.com/GijsvanDulmen/miio-go/device/product"
+	"github.com/GijsvanDulmen/miio-go/protocol/packet"
+	transportMocks "github.com/GijsvanDulmen/miio-go/protocol/transport/mocks"
+	subscriptionMocks "github.com/GijsvanDulmen/miio-go/subscription/common/mocks"
 	"github.com/benbjohnson/clock"
-	deviceMocks "github.com/danilarff86/miio-go/device/mocks"
-	"github.com/danilarff86/miio-go/device/product"
-	"github.com/danilarff86/miio-go/protocol/packet"
-	transportMocks "github.com/danilarff86/miio-go/protocol/transport/mocks"
-	subscriptionMocks "github.com/danilarff86/miio-go/subscription/common/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

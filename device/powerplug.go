@@ -1,8 +1,8 @@
 package device
 
 import (
-	"github.com/danilarff86/miio-go/capability"
-	"github.com/danilarff86/miio-go/common"
+	"github.com/GijsvanDulmen/miio-go/capability"
+	"github.com/GijsvanDulmen/miio-go/common"
 )
 
 type PowerPlug struct {

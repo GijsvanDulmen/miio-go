@@ -3,8 +3,8 @@ package device
 import (
 	"testing"
 
-	deviceMocks "github.com/danilarff86/miio-go/device/mocks"
-	"github.com/danilarff86/miio-go/device/product"
+	deviceMocks "github.com/GijsvanDulmen/miio-go/device/mocks"
+	"github.com/GijsvanDulmen/miio-go/device/product"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/GijsvanDulmen/miio-go/common"
 	"github.com/alecthomas/kingpin"
-	"github.com/danilarff86/miio-go/common"
 )
 
 func installDiscovery(app *kingpin.Application) {

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/GijsvanDulmen/miio-go/protocol/packet"
+	"github.com/GijsvanDulmen/miio-go/protocol/transport"
+	"github.com/GijsvanDulmen/miio-go/simulator/capability"
 	"github.com/benbjohnson/clock"
-	"github.com/danilarff86/miio-go/protocol/packet"
-	"github.com/danilarff86/miio-go/protocol/transport"
-	"github.com/danilarff86/miio-go/simulator/capability"
 	"github.com/sirupsen/logrus"
 )
 

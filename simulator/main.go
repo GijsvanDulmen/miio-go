@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"net"
 
+	"github.com/GijsvanDulmen/miio-go/protocol/packet"
+	"github.com/GijsvanDulmen/miio-go/protocol/transport"
+	"github.com/GijsvanDulmen/miio-go/simulator/device"
 	"github.com/alecthomas/kingpin"
-	"github.com/danilarff86/miio-go/protocol/packet"
-	"github.com/danilarff86/miio-go/protocol/transport"
-	"github.com/danilarff86/miio-go/simulator/device"
 	"github.com/sirupsen/logrus"
 )
 

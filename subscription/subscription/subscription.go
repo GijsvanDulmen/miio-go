@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/danilarff86/miio-go/subscription/common"
+	"github.com/GijsvanDulmen/miio-go/subscription/common"
 	uuid "github.com/satori/go.uuid"
 )
 
